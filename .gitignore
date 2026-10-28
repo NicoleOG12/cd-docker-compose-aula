@@ -4,3 +4,4 @@ __pycache__/
 .venv/
 venv/
 Credenciais.txt
+.DS_Store
