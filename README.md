@@ -30,7 +30,7 @@ Não inclui healthcheck nem observabilidade nesta etapa da aula.
 5. Na VM Azure, instale Docker e Docker Compose e clone o repositório em `/home/ubuntu/aula-mural-flask`.
 6. A pipeline cria/atualiza o `.env` na VM durante o deploy. Não crie nem versione esse arquivo manualmente.
 7. Para rodar localmente, crie um `.env` com `DB_PASSWORD` e `DB_ROOT_PASSWORD` ou defina as variáveis no ambiente, depois execute `docker compose up --build -d`.
-8. Acesse `http://localhost:8081`.
+8. Acesse `http://localhost:8090`.
 
 ## Fluxo da pipeline
 1. **Build + Publish:** valida o Compose, constrói a imagem e publica `latest` no Docker Hub.
