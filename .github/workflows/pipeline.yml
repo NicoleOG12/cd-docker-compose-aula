@@ -3,7 +3,7 @@ name: CI/CD com Docker Compose
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 jobs:
